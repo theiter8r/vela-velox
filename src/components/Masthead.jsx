@@ -1,11 +1,15 @@
 import { useEffect, useState } from 'react'
+import GlitchText from './motion/GlitchText'
 
 const NAV = [
-  { label: 'Work', href: '#work' },
-  { label: 'Studio', href: '#studio' },
-  { label: 'Services', href: '#services' },
-  { label: 'Contact', href: '#contact' },
+  { label: 'Work', ja: '制作', href: '#work' },
+  { label: 'Studio', ja: '工房', href: '#studio' },
+  { label: 'Services', ja: '業務', href: '#services' },
+  { label: 'Contact', ja: '連絡', href: '#contact' },
 ]
+
+/* ヴェロックスは世界一 — "Velox is the best in the world." */
+const WORDMARK_JA = 'ヴェロックスは世界一'
 
 /**
  * Magazine flag, fixed. True white over the hero film; swaps to ink
@@ -41,13 +45,10 @@ export default function Masthead() {
               alt=""
               className={`h-5 w-auto brightness-0 transition-[filter] duration-500 ${overHero ? 'invert' : ''}`}
             />
-            <span className="micro-label">Velox India</span>
+            <GlitchText en="VELOX" ja={WORDMARK_JA} className="micro-label" />
           </a>
 
-          <p className={`micro-label hidden transition-colors duration-500 lg:block ${toneSoft}`}>
-            A journal of work · Est. MMXXIII
-          </p>
-
+          
           <nav className="pointer-events-auto hidden items-center gap-8 md:flex" aria-label="Primary">
             {NAV.map((item) => (
               <a
@@ -55,7 +56,7 @@ export default function Masthead() {
                 href={item.href}
                 className="micro-label transition-opacity duration-300 hover:opacity-60"
               >
-                {item.label}
+                <GlitchText en={item.label} ja={item.ja} />
               </a>
             ))}
           </nav>
@@ -91,7 +92,7 @@ export default function Masthead() {
             </a>
           ))}
         </nav>
-        <p className="micro-label mt-12 text-paper/50">Velox India · Est. MMXXIII</p>
+        <p className="micro-label mt-12 text-paper/50">VELOX · Est. MMXXIII</p>
       </div>
     </>
   )

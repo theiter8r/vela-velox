@@ -15,11 +15,11 @@ export default function Footer() {
         </p>
 
         <a
-          href="mailto:hello@veloxindia.com"
+          href="mailto:velox@focuzdrvn.tech"
           className="font-display mt-8 inline-block text-[clamp(2rem,5.5vw,4.5rem)] leading-none text-ink underline decoration-ink/25 decoration-1 underline-offset-8 transition-colors duration-500 hover:decoration-ink"
           data-reveal
         >
-          hello@veloxindia.com
+          velox@focuzdrvn.tech
         </a>
       </RevealGroup>
 
@@ -27,7 +27,7 @@ export default function Footer() {
         <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
           <div className="flex items-center gap-3">
             <img src="/assets/velox-mark-ink.png" alt="Velox mark" className="h-4 w-auto" />
-            <span className="micro-label text-stone">© MMXXVI Velox India</span>
+            <span className="micro-label text-stone">© MMXXVI VELOX</span>
           </div>
 
           <p className="micro-label max-w-md text-stone">

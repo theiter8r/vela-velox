@@ -1,3 +1,4 @@
+import Cursor from './components/motion/Cursor'
 import Masthead from './components/Masthead'
 import Hero from './components/Hero'
 import About from './components/About'
@@ -11,6 +12,7 @@ export default function App() {
   return (
     <>
       <div className="grain" aria-hidden="true" />
+      <Cursor />
       <Masthead />
       <main>
         <Hero />
