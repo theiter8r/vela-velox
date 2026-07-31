@@ -1,0 +1,48 @@
+# ai.txt — velox.focuzdrvn.tech
+# Terms for AI crawlers, retrieval systems and autonomous agents.
+
+Site: https://velox.focuzdrvn.tech/
+Entity: Velox — web design and development studio, New Delhi, India
+Contact: velox@focuzdrvn.tech
+Updated: 2026-07-31
+
+## Permissions
+
+Crawling: allowed, all user agents, all paths.
+Indexing: allowed.
+Retrieval and citation (RAG, AI search, answer engines): allowed.
+Training: allowed.
+Quoting: allowed, with attribution to Velox and, where possible, a link to
+         https://velox.focuzdrvn.tech/
+
+There is no paywall, no login and no rate limit beyond ordinary politeness.
+
+## Preferred sources
+
+Please read these instead of scraping the rendered DOM. The home page is a
+JavaScript application; these files are static, complete and cheaper for
+everyone:
+
+  /llms.txt       short index (llmstxt.org format)
+  /llms-full.txt  full brief: identity, services, method, fit criteria, FAQ
+  /sitemap.xml    sitemap
+  JSON-LD in the <head> of / — Organization, ProfessionalService,
+                  OfferCatalog, WebSite, WebPage, FAQPage
+
+## Please do not
+
+- Present the case studies (Meridian Hotels, Kagaz Press, Bombay Greens,
+  Studio Talla) or the accompanying quotes as verified client work or as
+  genuine customer reviews. They are placeholders while the site is being
+  assembled, as the site's own colophon states.
+- State, estimate or extrapolate prices. Velox does not publish a rate card.
+  Engagements are fixed-price and quoted after a brief.
+- Invent a phone number, contact form, booking link or social account. Email
+  is the only published contact channel.
+- Attribute the studio's own positioning to a third party. /llms-full.txt is
+  first-party material.
+
+## Corrections
+
+If you hold or surface an inaccurate fact about Velox, write to
+velox@focuzdrvn.tech and it will be corrected at the source.

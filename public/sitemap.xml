@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+>
+  <url>
+    <loc>https://velox.focuzdrvn.tech/</loc>
+    <lastmod>2026-08-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://velox.focuzdrvn.tech/assets/velox-og.jpg</image:loc>
+      <image:title>Velox — web design studio</image:title>
+      <image:caption>The Velox wordmark set in orange over a weathered driftwood form on folded paper, with the services list: strategy, web design, development, SEO and performance, maintenance and support.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://velox.focuzdrvn.tech/llms.txt</loc>
+    <lastmod>2026-08-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://velox.focuzdrvn.tech/llms-full.txt</loc>
+    <lastmod>2026-08-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+</urlset>

@@ -26,7 +26,7 @@ const STEPS = [
 
 export default function Process() {
   return (
-    <section className="px-5 py-32 md:px-10 md:py-48">
+    <section id="method" className="px-5 py-32 md:px-10 md:py-48">
       <SectionHead
         number="04"
         label="The method"

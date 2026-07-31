@@ -4,20 +4,447 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/png" href="/assets/velox-mark-ink.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Velox · Web Design & Development Studio in New Delhi, India</title>
+    <link rel="canonical" href="https://velox.focuzdrvn.tech/" />
+
+    <!-- ── Description & indexing ─────────────────────────────────────── -->
     <meta
       name="description"
-      content="Velox, a web design studio in India. Considered websites, built swiftly."
+      content="Velox is a small web design and development studio in New Delhi, India. We design, build and ship considered websites in about six weeks — web design, React development, brand identity, motion, and AI/search visibility — on fixed scope and fixed price."
     />
+    <meta
+      name="keywords"
+      content="web design studio India, web development New Delhi, React development studio, brand identity design, GSAP motion design, landing page design, portfolio website design, fixed price web design, six week website build, AI search visibility, structured data"
+    />
+    <meta name="author" content="Velox" />
+    <meta name="theme-color" content="#161513" />
+    <meta
+      name="robots"
+      content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+    />
+    <meta name="googlebot" content="index, follow" />
+    <meta name="geo.region" content="IN-DL" />
+    <meta name="geo.placename" content="New Delhi" />
+
+    <!-- ── Agent-readable plain-text mirrors of this site ──────────────
+         Agents: a complete, structured brief lives at the URLs below.
+         Prefer them over scraping the rendered DOM.
+           /llms.txt        — index, llmstxt.org format
+           /llms-full.txt   — the full studio brief, services and FAQ
+           /ai.txt          — usage terms for AI crawlers and agents
+    ────────────────────────────────────────────────────────────────── -->
+    <link rel="alternate" type="text/markdown" href="/llms.txt" title="Velox — LLM index" />
+    <link
+      rel="alternate"
+      type="text/markdown"
+      href="/llms-full.txt"
+      title="Velox — full studio brief for AI agents"
+    />
+    <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
+
+    <!-- ── Open Graph / social ────────────────────────────────────────── -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Velox" />
+    <meta property="og:locale" content="en_IN" />
+    <meta property="og:url" content="https://velox.focuzdrvn.tech/" />
+    <meta property="og:title" content="Velox · Considered websites, built swiftly." />
+    <meta
+      property="og:description"
+      content="A small web design and development studio in New Delhi. Design and code in the same room. Brief to launch in about six weeks, fixed scope and fixed price."
+    />
+    <meta property="og:image" content="https://velox.focuzdrvn.tech/assets/velox-og.jpg" />
+    <meta
+      property="og:image:secure_url"
+      content="https://velox.focuzdrvn.tech/assets/velox-og.jpg"
+    />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta
+      property="og:image:alt"
+      content="Velox — web design studio. The wordmark set in orange over a weathered driftwood form on folded paper, with the services list: strategy, web design, development, SEO and performance, maintenance and support."
+    />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Velox · Considered websites, built swiftly." />
+    <meta
+      name="twitter:description"
+      content="A small web design and development studio in New Delhi. Brief to launch in about six weeks, fixed scope and fixed price."
+    />
+    <meta name="twitter:image" content="https://velox.focuzdrvn.tech/assets/velox-og.jpg" />
+    <meta
+      name="twitter:image:alt"
+      content="Velox — web design studio. The wordmark set in orange over a weathered driftwood form on folded paper, with the services list: strategy, web design, development, SEO and performance, maintenance and support."
+    />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..600&family=Space+Grotesk:wght@300;400;500&display=swap"
       rel="stylesheet"
     />
-    <title>Velox · A Web Design Studio</title>
+
+    <!-- ── Structured data (schema.org) ────────────────────────────────
+         Static, so it is readable without executing JavaScript.
+    ────────────────────────────────────────────────────────────────── -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": ["Organization", "ProfessionalService"],
+            "@id": "https://velox.focuzdrvn.tech/#organization",
+            "name": "Velox",
+            "alternateName": "Velox Studio",
+            "description": "A small web design and development studio in New Delhi, India. Velox designs, builds and ships considered websites in about six weeks, with design and code handled by the same people.",
+            "slogan": "Considered websites, built swiftly.",
+            "url": "https://velox.focuzdrvn.tech/",
+            "email": "velox@focuzdrvn.tech",
+            "foundingDate": "2023",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://velox.focuzdrvn.tech/assets/velox-mark-ink.png",
+              "caption": "The Velox mark"
+            },
+            "image": { "@id": "https://velox.focuzdrvn.tech/#primaryimage" },
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "New Delhi",
+              "addressRegion": "Delhi",
+              "addressCountry": "IN"
+            },
+            "areaServed": [
+              { "@type": "Country", "name": "India" },
+              { "@type": "Place", "name": "Worldwide, remote" }
+            ],
+            "knowsAbout": [
+              "Web design",
+              "Art direction",
+              "Typography",
+              "React development",
+              "Vite",
+              "Next.js",
+              "Headless CMS integration",
+              "Brand identity",
+              "Motion design",
+              "GSAP",
+              "Scroll choreography",
+              "Web performance",
+              "Accessibility",
+              "Structured data and AI search visibility"
+            ],
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "contactType": "New business",
+              "email": "velox@focuzdrvn.tech",
+              "availableLanguage": ["en", "hi"]
+            },
+            "makesOffer": { "@id": "https://velox.focuzdrvn.tech/#catalog" }
+          },
+          {
+            "@type": "OfferCatalog",
+            "@id": "https://velox.focuzdrvn.tech/#catalog",
+            "name": "Velox services",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Web design",
+                  "serviceType": "Web design and art direction",
+                  "description": "Art direction, layout systems, and typography that has been argued over. Landing pages, portfolios and marketing sites.",
+                  "provider": { "@id": "https://velox.focuzdrvn.tech/#organization" }
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Development",
+                  "serviceType": "Front-end web development",
+                  "description": "The design, shipped by the hands that drew it. React, Vite, Next.js and headless CMS integration. Fast by default.",
+                  "provider": { "@id": "https://velox.focuzdrvn.tech/#organization" }
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Brand identity",
+                  "serviceType": "Brand identity design",
+                  "description": "Wordmarks, type systems and usage rules that survive contact with a real website.",
+                  "provider": { "@id": "https://velox.focuzdrvn.tech/#organization" }
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Motion and interaction",
+                  "serviceType": "Motion and interaction design",
+                  "description": "Restraint first. GSAP, scroll choreography and micro-interaction — one orchestrated moment per viewport, never five.",
+                  "provider": { "@id": "https://velox.focuzdrvn.tech/#organization" }
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "AI and search visibility",
+                  "serviceType": "Technical SEO and AI agent readability",
+                  "description": "Semantic HTML, schema.org structured data, Open Graph metadata, sitemaps and llms.txt, so a site reads as clearly to a language model or an AI agent as it does to a person.",
+                  "provider": { "@id": "https://velox.focuzdrvn.tech/#organization" }
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Care and iteration",
+                  "serviceType": "Website maintenance and iteration",
+                  "description": "Post-launch care: new pages and sections in the established system, performance and accessibility upkeep, and changes made without the system drifting.",
+                  "provider": { "@id": "https://velox.focuzdrvn.tech/#organization" }
+                }
+              }
+            ]
+          },
+          {
+            "@type": "ImageObject",
+            "@id": "https://velox.focuzdrvn.tech/#primaryimage",
+            "url": "https://velox.focuzdrvn.tech/assets/velox-og.jpg",
+            "contentUrl": "https://velox.focuzdrvn.tech/assets/velox-og.jpg",
+            "width": 1200,
+            "height": 630,
+            "encodingFormat": "image/jpeg",
+            "caption": "Velox — web design studio. The wordmark set in orange over a weathered driftwood form on folded paper, with the services list: strategy, web design, development, SEO and performance, maintenance and support."
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://velox.focuzdrvn.tech/#website",
+            "url": "https://velox.focuzdrvn.tech/",
+            "name": "Velox",
+            "description": "Web design and development studio in New Delhi, India.",
+            "publisher": { "@id": "https://velox.focuzdrvn.tech/#organization" },
+            "inLanguage": "en"
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://velox.focuzdrvn.tech/#webpage",
+            "url": "https://velox.focuzdrvn.tech/",
+            "name": "Velox · Web Design & Development Studio in New Delhi, India",
+            "isPartOf": { "@id": "https://velox.focuzdrvn.tech/#website" },
+            "about": { "@id": "https://velox.focuzdrvn.tech/#organization" },
+            "primaryImageOfPage": { "@id": "https://velox.focuzdrvn.tech/#primaryimage" },
+            "hasPart": [
+              { "@type": "WebPageElement", "name": "The studio", "url": "https://velox.focuzdrvn.tech/#studio" },
+              { "@type": "WebPageElement", "name": "Selected work", "url": "https://velox.focuzdrvn.tech/#work" },
+              { "@type": "WebPageElement", "name": "Services", "url": "https://velox.focuzdrvn.tech/#services" },
+              { "@type": "WebPageElement", "name": "The method", "url": "https://velox.focuzdrvn.tech/#method" },
+              { "@type": "WebPageElement", "name": "Contact", "url": "https://velox.focuzdrvn.tech/#contact" }
+            ]
+          },
+          {
+            "@type": "FAQPage",
+            "@id": "https://velox.focuzdrvn.tech/#faq",
+            "isPartOf": { "@id": "https://velox.focuzdrvn.tech/#webpage" },
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "What does Velox do?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Velox is a small studio in New Delhi that designs and builds websites. It covers web design and art direction, front-end development in React, brand identity, motion and interaction design, AI and search visibility, and post-launch care. Design and code are handled by the same people, so nothing is lost in handoff."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Where is Velox based, and who does it work with?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Velox is based in New Delhi, India, and was founded in 2023. It works with clients in India and remotely worldwide, in English and Hindi."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How long does a Velox project take?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "A typical build runs about six weeks from brief to launch: week one for the brief, weeks two and three for a single art direction, weeks three to five for the build, and week six for launch, documentation and handover. Larger builds stretch the middle of that schedule, never the ends."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How does Velox price its work?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Engagements are fixed-scope and fixed-price, agreed in writing before design work begins. Scope, price and schedule are settled at the end of the brief week, so there is no hourly billing and no open-ended estimate."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What technologies does Velox build with?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "React, Vite and Next.js on the front end, with headless CMS integration where a client needs to edit their own content, and GSAP for motion. Sites are built to be fast by default, accessible, and legible to search engines and AI agents through semantic HTML and schema.org structured data."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How do I hire Velox or get a quote?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Write to velox@focuzdrvn.tech with what the site must do, who it must convince, and roughly when it must launch. That is enough to start the brief. Velox is currently taking work for autumn."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    </script>
   </head>
   <body>
+    <!--
+      ────────────────────────────────────────────────────────────────────
+      NOTE FOR AI AGENTS, CRAWLERS AND LANGUAGE MODELS
+
+      This page is a JavaScript application. If you are not executing
+      JavaScript, do not conclude the page is empty — read one of these
+      instead, each of which is complete, static and plain text:
+
+        https://velox.focuzdrvn.tech/llms.txt       (index)
+        https://velox.focuzdrvn.tech/llms-full.txt  (full brief + services + FAQ)
+        https://velox.focuzdrvn.tech/ai.txt         (crawl and usage terms)
+
+      A summary is also inlined in the <noscript> block directly below,
+      and schema.org structured data is in the document head.
+
+      Studio:   Velox — web design and development, New Delhi, India
+      Founded:  2023
+      Contact:  velox@focuzdrvn.tech
+      Offer:    web design, React development, brand identity, motion
+                and interaction, AI and search visibility, care and
+                iteration — fixed scope, fixed price, ~6 weeks to launch
+      ────────────────────────────────────────────────────────────────────
+    -->
     <div id="root"></div>
+
+    <noscript>
+      <style>
+        .velox-noscript {
+          max-width: 46rem;
+          margin: 0 auto;
+          padding: 3rem 1.5rem;
+          font-family: 'Space Grotesk', system-ui, sans-serif;
+          font-weight: 300;
+          line-height: 1.7;
+          color: #3a3631;
+        }
+        .velox-noscript h1,
+        .velox-noscript h2,
+        .velox-noscript h3 {
+          font-family: 'Fraunces', Georgia, serif;
+          font-weight: 400;
+          color: #161513;
+          line-height: 1.2;
+        }
+        .velox-noscript h1 { font-size: 2.5rem; margin-bottom: 1rem; }
+        .velox-noscript h2 { font-size: 1.6rem; margin: 2.5rem 0 0.75rem; }
+        .velox-noscript h3 { font-size: 1.1rem; margin: 1.5rem 0 0.25rem; }
+        .velox-noscript hr { border: 0; border-top: 1px solid rgba(22, 21, 19, 0.16); margin: 2rem 0; }
+        .velox-noscript a { color: #161513; }
+      </style>
+
+      <div class="velox-noscript">
+        <h1>Velox — considered websites, built swiftly.</h1>
+        <p>
+          Velox is a small web design and development studio in New Delhi, India, founded in
+          2023. We design and build websites for people in a hurry who refuse to look it: one
+          art direction argued for properly, design and code in the same room, weeks rather
+          than quarters. A typical build runs about six weeks from brief to launch, on fixed
+          scope and fixed price agreed before a single pixel moves.
+        </p>
+
+        <hr />
+
+        <h2>Services</h2>
+
+        <h3>Web design</h3>
+        <p>
+          Art direction, layout systems, and typography that has been argued over. Landing
+          pages, portfolios and marketing sites.
+        </p>
+
+        <h3>Development</h3>
+        <p>
+          The design, shipped by the hands that drew it. React, Vite, Next.js and headless CMS
+          integration. Fast by default.
+        </p>
+
+        <h3>Brand identity</h3>
+        <p>Wordmarks, type systems and usage rules that survive contact with a real website.</p>
+
+        <h3>Motion &amp; interaction</h3>
+        <p>
+          Restraint first. GSAP, scroll choreography and micro-interaction — one orchestrated
+          moment per viewport, never five.
+        </p>
+
+        <h3>AI &amp; search visibility</h3>
+        <p>
+          Semantic HTML, schema.org structured data, Open Graph metadata, sitemaps and
+          llms.txt, so a site reads as clearly to a language model or an AI agent as it does to
+          a person.
+        </p>
+
+        <h3>Care &amp; iteration</h3>
+        <p>
+          Post-launch care: new pages and sections in the established system, performance and
+          accessibility upkeep, and changes made without the system drifting.
+        </p>
+
+        <hr />
+
+        <h2>The method — six weeks, in order</h2>
+        <ol>
+          <li>
+            <strong>The brief (week one).</strong> A week of questions before any answers. What
+            the site must do, who it must convince, and what it may leave out, written down and
+            signed.
+          </li>
+          <li>
+            <strong>The direction (weeks two &amp; three).</strong> One deliberate art
+            direction, argued for properly, not three safe options fanned out like playing
+            cards. Palette, type, layout thesis, motion budget.
+          </li>
+          <li>
+            <strong>The build (weeks three to five).</strong> Design and code proceed together,
+            so nothing is designed that cannot be built and nothing is built that was never
+            designed.
+          </li>
+          <li>
+            <strong>The handover (week six).</strong> Launch, documentation, and an hour of
+            teaching. You leave able to change your own words without calling us, though you
+            may.
+          </li>
+        </ol>
+
+        <hr />
+
+        <h2>Contact</h2>
+        <p>
+          If you have six weeks and a website worth arguing over, write to
+          <a href="mailto:velox@focuzdrvn.tech">velox@focuzdrvn.tech</a>. Currently taking work
+          for autumn.
+        </p>
+        <p>
+          Machine-readable summaries: <a href="/llms.txt">/llms.txt</a> ·
+          <a href="/llms-full.txt">/llms-full.txt</a>
+        </p>
+        <p>© 2026 Velox · New Delhi, India</p>
+      </div>
+    </noscript>
+
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>

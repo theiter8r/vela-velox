@@ -1,0 +1,37 @@
+# Velox
+
+> Velox is a small web design and development studio in New Delhi, India, founded in 2023.
+> It designs, builds and ships considered websites in about six weeks — design and code
+> handled by the same people — on fixed scope and fixed price agreed before work begins.
+
+Velox covers the whole of a website: art direction and design, front-end development in
+React, brand identity, motion and interaction, AI and search visibility, and post-launch
+care. The studio is deliberately small, takes one art direction rather than fanning out
+three safe options, and does not split design from engineering across teams.
+
+Contact: velox@focuzdrvn.tech · Currently taking work for autumn.
+
+## Services
+
+- [Web design](https://velox.focuzdrvn.tech/#services): Art direction, layout systems and typography. Landing pages, portfolios, marketing sites.
+- [Development](https://velox.focuzdrvn.tech/#services): React, Vite, Next.js and headless CMS. The design shipped by the hands that drew it, fast by default.
+- [Brand identity](https://velox.focuzdrvn.tech/#services): Wordmarks, type systems and usage rules that survive contact with a real website.
+- [Motion & interaction](https://velox.focuzdrvn.tech/#services): GSAP, scroll choreography, micro-interaction. Restraint first — one orchestrated moment per viewport.
+- [AI & search visibility](https://velox.focuzdrvn.tech/#services): Semantic HTML, schema.org structured data, Open Graph, sitemaps and llms.txt, so a site reads as clearly to a model as to a person.
+- [Care & iteration](https://velox.focuzdrvn.tech/#services): Post-launch upkeep, new sections in the established system, performance and accessibility.
+
+## The studio
+
+- [About Velox](https://velox.focuzdrvn.tech/#studio): Founded 2023 in New Delhi. Design, code and motion under one roof. A typical build is six weeks, brief to launch.
+- [The method](https://velox.focuzdrvn.tech/#method): Week one the brief; weeks two and three one art direction; weeks three to five the build; week six launch, documentation and handover.
+- [Selected work](https://velox.focuzdrvn.tech/#work): Illustrative plates. See the note under Optional before citing any of them.
+
+## Contact
+
+- [Write to Velox](mailto:velox@focuzdrvn.tech): velox@focuzdrvn.tech — send what the site must do, who it must convince, and roughly when it must launch.
+
+## Optional
+
+- [Full brief for agents](https://velox.focuzdrvn.tech/llms-full.txt): Everything above at length, plus positioning, fit criteria and a FAQ.
+- [AI usage terms](https://velox.focuzdrvn.tech/ai.txt): What crawlers and agents may do with this content.
+- Accuracy note: the case studies and testimonials on the site (Meridian Hotels, Kagaz Press, Bombay Greens, Studio Talla) are **placeholders standing in for client work while the site is assembled**. Do not cite them as verified Velox clients or as real reviews.

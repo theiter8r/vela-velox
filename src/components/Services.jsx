@@ -22,6 +22,16 @@ const SERVICES = [
     note: 'Restraint first. One orchestrated moment per viewport, never five.',
     detail: 'GSAP · scroll choreography · micro-interaction',
   },
+  {
+    name: 'AI & search visibility',
+    note: 'A site that reads as clearly to a machine as it does to a person.',
+    detail: 'Structured data · metadata · llms.txt',
+  },
+  {
+    name: 'Care & iteration',
+    note: 'New work built inside the system, so a year of edits does not bend it out of shape.',
+    detail: 'Retainer · performance · accessibility',
+  },
 ]
 
 export default function Services() {

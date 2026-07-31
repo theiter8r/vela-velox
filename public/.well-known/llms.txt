@@ -1,0 +1,15 @@
+# Velox
+
+> Web design and development studio, New Delhi, India. Founded 2023.
+> Considered websites, built swiftly — about six weeks, brief to launch.
+
+The canonical llms.txt for this site lives at the site root, per llmstxt.org.
+This file is a pointer only, so the two can never drift apart.
+
+## Canonical
+
+- [llms.txt](https://velox.focuzdrvn.tech/llms.txt): Index of this site, llmstxt.org format.
+- [llms-full.txt](https://velox.focuzdrvn.tech/llms-full.txt): Full brief — identity, services, method, fit criteria, FAQ, accuracy notes.
+- [ai.txt](https://velox.focuzdrvn.tech/ai.txt): Terms for AI crawlers and agents.
+
+Contact: velox@focuzdrvn.tech

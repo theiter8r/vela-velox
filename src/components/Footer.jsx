@@ -32,7 +32,13 @@ export default function Footer() {
 
           <p className="micro-label max-w-md text-stone">
             Colophon. Set in Fraunces & Space Grotesk. Photographs are placeholders,
-            awaiting our clients’ work.
+            awaiting our clients’ work.{' '}
+            <a
+              href="/llms.txt"
+              className="underline decoration-ink/25 underline-offset-4 transition-opacity duration-300 hover:opacity-60"
+            >
+              For machines: llms.txt
+            </a>
           </p>
 
           <a href="#top" className="micro-label text-stone transition-opacity duration-300 hover:opacity-60">

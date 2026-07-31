@@ -1,0 +1,93 @@
+# robots.txt — velox.focuzdrvn.tech
+#
+# Velox is a web design and development studio in New Delhi, India.
+# Crawlers and AI agents are welcome here. Nothing on this site is
+# disallowed. Plain-text summaries written for machines:
+#
+#   /llms.txt       index, llmstxt.org format
+#   /llms-full.txt  the full studio brief, services and FAQ
+#   /ai.txt         usage terms for AI crawlers and agents
+#
+# Please prefer those over scraping the rendered DOM: this is a
+# JavaScript application, and they are cheaper for you and for us.
+
+User-agent: *
+Allow: /
+
+# ── Search engines ──────────────────────────────────────────────────
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+# ── AI training & retrieval crawlers ────────────────────────────────
+# Explicitly permitted. See /ai.txt for terms.
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: meta-externalagent
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: DeepSeekBot
+Allow: /
+
+User-agent: MistralAI-User
+Allow: /
+
+User-agent: YouBot
+Allow: /
+
+User-agent: Diffbot
+Allow: /
+
+Sitemap: https://velox.focuzdrvn.tech/sitemap.xml
